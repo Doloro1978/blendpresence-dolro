@@ -1,12 +1,12 @@
 import bpy, os, gpu, time, math, re
-from .pypresence import Presence
-from .pypresence import exceptions
+from ./pypresence/pypresence/ import Presence
+from ./pypresence/pypresence/ import exceptions
 
 bl_info = {
-    "name": "BlendPresence",
+    "name": "BlendPresence-dolro",
     "description": "Discord Rich Presence for Blender",
     "author": "Abrasic",
-    "version": (1, 8, 0),
+    "version": (1, 8, 1),
     "blender": (2, 93, 9),
     "category": "System",
 }
